@@ -1,0 +1,49 @@
+IMF Investment and Capital Stock Dataset, 1960-2019											
+
+(This version: May 2021)
+											
+Developed by Expenditure Policy (EP) Division, Fiscal Affairs Department (FAD), International Monetary Fund (IMF)										
+
+COVER
+
+Background:	This file provides comprehensive data on public investment and capital stock (i.e. general government), private investment and capital stock, as well as investment and capital stock arising from public-private partnerships (PPPs), across the Fund membership countries. 										
+											
+Frequency of updates:	This database will be updated periodically as new data become available. 										
+											
+Background material:	The accompanying 2021 Update of the Manual "Estimating Public, Private, and PPP Capital Stocks" (https://infrastructuregovern.imf.org/content/dam/PIMA/Knowledge-Hub/dataset/InvestmentandCapitalStockDatabaseUserManualandFAQ_May2021.pdf) describes in great detail the series' definitions, the investment series' data sources, as well as the methodology in constructing the stock series. The methodology follows the standard perpetual inventory equation and largely builds on Gupta and others (2014) "Efficiency-Adjusted Public Capital and Growth" and Kamps (2006) "New Estimates of Government Net Capital Stocks for 22 OECD Countries, 1960–2001". 										
+											
+Dataset reference:	Please refer to it as "IMF Investment and Capital Stock Dataset, 2021” and add a reference to the above-mentioned IMF Board Paper.										
+											
+Information sources:	Information on public and private investment and GDP comes from three main sources: the OECD Economic Outlook (2020 version) for OECD countries, Eurostat, and a combination of the National Accounts of the Penn World Tables (PWT, version 10.0) and the IMF World Economic Outlook (WEO, April 2021 vintage) for non-OECD countries. Information on PPP investment comes from two main sources: the World Bank Private Participation in Infrastructure Database (http://ppi.worldbank.org/) and EIB data sourced from the European PPP Expertise Center (EPEC) at the European Investment Bank. Information on country income groupings used in depreciation rates' assumptions is from the World Bank World Development Indicators.										
+											
+Note:	Note that all data series (public investment and capital stock, private investment and capital stock, GDP, etc.) are expressed in billions of constant 2017 international dollars (purchasing power parity adjusted), using the corresponding component-specific deflators from OECD, Eurostat, PWT, and WB databases mentioned above. We have added a "current cost" series for the public, private, and PPP capital stocks in this data update.										
+											
+Comments/suggestions:	For any queries please contact Riki Matsumoto (RMatsumoto@imf.org), Yuan Xiao (YXiao@imf.org)
+
+DEFINITION OF WORKSHEET VARIABLES
+
+igov_rppp	General government investment (gross fixed capital formation), in billions of constant 2017 international dollars.									
+										
+kgov_rppp	General government capital stock (constructed based on general government investment flows "igov_rppp"), in billions of constant 2017 international dollars.									
+										
+ipriv_rppp	Private investment (gross fixed capital formation), in billions of constant 2017 international dollars.									
+										
+kpriv_rppp	Private capital stock (constructed based on private investment flows "igov_rppp"), in billions of constant 2017 international dollars.									
+										
+ippp_rppp	Public-private partnership (PPP) investment, in billions of constant 2017 international dollars.									
+										
+kppp_rppp	Public-private partnership (PPP) capital stock (constructed based on PPP investment flows "ippp_rppp"), in billions of constant 2017 international dollars.									
+										
+GDP_rppp	Gross domestic product, in billions of constant 2017 international dollars.									
+										
+igov_n	General government investment (gross fixed capital formation), in billions of nominal national currency									
+										
+kgov_n	General government capital stock, in billions of nominal national currency									
+										
+ipriv_n	Private investment (gross fixed capital formation), in billions of nominal national currency									
+										
+kpriv_n	Private capital stock, in billions of nominal national currency									
+										
+kppp_n	Public-private partnership (PPP) capital stock, in billions of nominal national currency.									
+										
+GDP_n	Gross domestic product, in billions of nominal national currency			
